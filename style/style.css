@@ -1,0 +1,328 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 17);
+    color:#fff;
+    height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/**-------MOBILE-FIRST*/
+@media screen and (max-width: 685px) {
+    #main{
+        display:grid;
+    }
+
+/**INICIO - HOME*/
+    #menu{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5vh;
+        justify-content: center;
+        font-size: 3vh;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: #d4d4d4;
+        border: 2px solid #999999a1;
+        border-radius: 5px;
+        padding: 5px 20px
+    } 
+
+    #menu a:hover{
+        background-color: rgb(190, 190, 190);
+        color: #070707;
+    }
+
+    
+    #banner-image{
+        width: 70%;
+        height: 70%;
+        border-radius: 4%;
+        rotate: 3deg;
+        margin-top: 40px;
+    }
+
+    #banner{
+        display:flex;
+        justify-content: space-around;
+        padding-bottom: 50px;
+        margin-bottom: 40px;
+        border-bottom: 1px solid #8f8f8faf;
+    }
+
+    /** FIM - HOME*/
+
+    /**INICIO - TECNOLOGIAS*/
+
+    #technologies-main{ 
+        display: flex;
+        flex-flow: column wrap;
+        gap: 3vh;
+        font-size: 3vh;
+        text-align: start;
+    }
+
+    #technologies-main h2{
+        width: 100%;
+        font-size: 4vh;
+        text-align: center;
+    }
+
+
+
+    #technologies-main ul{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5vh;
+        justify-content: center;
+        font-size: 3vh;
+        text-align: start;
+        list-style: none;
+        border-bottom: 1px solid #8f8f8faf;
+    }
+
+    #technologies-main h1{
+        width: 100%;
+        font-size: 4.7vh;
+        text-align: center;
+    }
+
+    /** FIM - TECNOLOGIAS*/
+
+    /**INICIO - PROJETOS*/
+
+    #projects-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-content: space-around;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #8f8f8faf;
+
+    }
+
+    #projects-main img{
+        width: 90vw;
+        height: auto;
+        border-radius: 5px;
+        border: 2px solid #ffffff34;
+    }
+
+    .project-description{
+        text-align: start;
+        margin-left: 5vw;
+    }
+
+    .project-details ul {
+        list-style:url("/img/icons/arrow-white.svg");
+        text-align: start;
+        margin-left: 1vw;
+    }
+
+    /** FIM - PROJETOS*/
+
+    /**INICIO - CONTATO*/
+
+    #footer{
+        text-align: center;
+        font-size: 2.5vh;
+    }
+
+    #footer a{
+
+        text-decoration: none;
+        color: #b99af1;
+    }
+
+    #footer a:hover{
+        text-decoration: underline;
+    }
+
+    #contact-link{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5vh;
+        place-content: center;
+    }
+}
+
+/*!MOBILE-END*/
+
+/**DESKTOP VIEW*/
+@media screen and (min-width: 685px) {
+
+    body {
+        margin: 0;
+
+    }
+
+    #title h1{
+        font-size: 8vh;
+    }
+    #title h3{
+        font-size: 5vh;
+    }
+    #main{
+        display:grid;
+    }
+
+/**INICIO - HOME*/
+
+    #header{
+        display: flex;
+        flex-flow: row  wrap;
+        gap: 20%;
+        align-items: center;
+        padding: 5px 20px;
+        padding-bottom: 55px;
+        border-bottom: 1px solid #8f8f8faf;
+    }
+
+    #banner{
+        display:flex;
+        justify-content: right;
+    }
+    #banner-image{
+
+        width: 30vw;
+        height: 55vh;
+        border-radius: 4%;
+        rotate: 3deg;
+        margin-top: 40px;
+    }
+
+    #menu{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 4vh;
+        padding: 10vh 5vh;
+        width: 30vw;
+        font-size: 3vh;
+        text-align: center;
+        margin-top: 15px;
+
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: #d4d4d4;
+        border: 2px solid #999999a1;
+        border-radius: 5px;
+        padding: 5px 20px
+    } 
+
+    #menu a:hover{
+        background-color: rgb(190, 190, 190);
+        color: #070707;
+    }
+
+        /** FIM - HOME*/
+
+    /**INICIO - TECNOLOGIAS*/
+
+    #technologies-main{ 
+        display: flex;
+        flex-flow: column wrap;
+        gap: 3vh;
+        font-size: 3vh;
+        text-align: start;
+    }
+
+    #technologies-main h2{
+        width: auto;    
+        display: block;
+        font-size: 4vh;
+        text-align: center; 
+    }
+
+
+
+    #technologies-main ul{
+        display: flex;
+        flex-flow: column nowrap;
+        gap: 5vh;
+        justify-content:center;
+        font-size: 3vh;
+        text-align: center;
+        list-style: none;
+        border-bottom: 1px solid #8f8f8faf;
+    }
+
+    #technologies-main h1{
+        width: 100%;
+        font-size: 4.7vh;
+        text-align: center;
+    }
+
+    /** FIM - TECNOLOGIAS*/
+
+    /**INICIO - PROJETOS*/
+
+    #projects-main{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-content: space-around;
+        align-items: center;
+        text-align: center;
+        border-bottom: 1px solid #8f8f8faf;
+
+    }
+
+    #projects-main img{
+        width: 90vw;
+        height: auto;
+        border-radius: 5px;
+        border: 2px solid #ffffff34;
+    }
+
+    .project-description{
+        text-align: start;
+        margin-left: 5vw;
+    }
+
+    .project-details ul {
+        list-style:url("/img/icons/arrow-white.svg");
+        text-align: start;
+        margin-left: 1vw;
+    }
+
+    /** FIM - PROJETOS*/
+
+    /**INICIO - CONTATO*/
+
+    #footer{
+        text-align: center;
+        font-size: 2.5vh;
+    }
+
+    #footer a{
+
+        text-decoration: none;
+        color: #b99af1;
+    }
+
+    #footer a:hover{
+        text-decoration: underline;
+    }
+
+    #contact-link{
+        display: flex;
+        flex-flow: row wrap;
+        gap: 5vh;
+        place-content: center;
+    }
+}
