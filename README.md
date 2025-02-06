@@ -40,8 +40,9 @@ Portal profissional desenvolvido para:
 ![Email](https://img.shields.io/badge/-Email-D14836?logo=gmail&logoColor=white)
 
 contato.prog2@gmail.com
+
 ![linkedin-img](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)
-![Linkedin](https://linkedin.com/in/lucas-sergio-531bb1143)
+![Lucas Sergio](https://linkedin.com/in/lucas-sergio-531bb1143)
 
 [Portfólio](https://lukedevfull.github.io)
 
