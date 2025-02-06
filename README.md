@@ -42,9 +42,9 @@ Portal profissional desenvolvido para:
 contato.prog2@gmail.com
 
 ![linkedin-img](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)
-![Lucas Sergio](https://linkedin.com/in/lucas-sergio-531bb1143)
+https://linkedin.com/in/lucas-sergio-531bb1143
 
-[Portfólio](https://lukedevfull.github.io)
+![Portfólio](https://lukedevfull.github.io)
 
 ![Linguagens Top](https://github-readme-stats.vercel.app/api/top-langs/?username=lukedevfull&layout=compact&theme=nightowl)
 
